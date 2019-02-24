@@ -6,6 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const app_1 = __importDefault(require("./app"));
 //const PORT = 8000;
 app_1.default.listen(process.env.PORT || 8000, () => {
-    console.log('Express server listening on port ' + PORT);
+    console.log('Express server listening on port '+process.env.PORT);
 });
 //# sourceMappingURL=server.js.map
